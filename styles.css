@@ -1,0 +1,97 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background: #a8d0e6;
+	color: white;
+}
+
+/* home */
+.home-content {
+	position: absolute;
+	margin: auto;
+	top: 42%;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.project-btn {
+	margin-bottom: 1rem;
+}
+
+.fa-github,
+.fa-linkedin,
+.fa-envelope {
+	color: white;
+	font-size: 2rem;
+}
+
+/* projects */
+.project-h1 {
+	margin-bottom: 5rem;
+}
+
+.project-content {
+	position: absolute;
+	margin: auto;
+	top: 15%;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.project-card-wrapper {
+	display: flex;
+}
+
+.card {
+	color: black;
+	margin-left: 1rem;
+	margin-right: 1rem;
+}
+
+/* resume */
+.resume-content {
+	position: absolute;
+	margin: auto;
+	top: 10%;
+	right: 0;
+	bottom: 5%;
+	left: 0;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+/* Mobile Styles */
+@media only screen and (max-width: 400px) {
+}
+
+/* Tablet Styles */
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+	.sign-up,
+	.feature-1,
+	.feature-2,
+	.feature-3 {
+		width: 50%;
+	}
+}
+
+/* Desktop Styles */
+@media only screen and (min-width: 961px) {
+	.page {
+		width: 100%;
+		margin: 0 auto;
+		background-color: #a8d0e6;
+	}
+}
