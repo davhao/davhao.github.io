@@ -63,7 +63,7 @@ body {
 /* resume */
 .resume-content {
 	position: absolute;
-	margin: auto;
+	margin: 5rem;
 	top: 10%;
 	right: 0;
 	bottom: 5%;
@@ -73,19 +73,58 @@ body {
 	align-items: center;
 }
 
+.resume-img {
+	margin-bottom: 5rem;
+}
+
 /* Mobile Styles */
 @media only screen and (max-width: 400px) {
+	.navbar {
+		z-index: 5;
+	}
+
+	.home-content {
+		padding: .75rem;
+	}
+
+	.name,
+	.project-h1 {
+		font-size: 1.75rem;
+	}
+
+	.desc {
+		font-size: .9rem;
+	}
+
+	.project-h1 {
+		z-index: -1;
+		padding: 0 3rem;
+		margin-bottom: 2rem;
+	}
+
+	.project-card-wrapper {
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+
+	.card {
+		margin-bottom: 2rem;
+	}
+
+	.resume-content {
+		justify-content: center;
+		margin: 0;
+	}
+
+	.resume-img {
+		width: 90%;
+		margin-bottom: 0;
+	}
 }
 
 /* Tablet Styles */
-@media only screen and (min-width: 401px) and (max-width: 960px) {
-	.sign-up,
-	.feature-1,
-	.feature-2,
-	.feature-3 {
-		width: 50%;
-	}
-}
+/* @media only screen and (min-width: 401px) and (max-width: 960px) {
+} */
 
 /* Desktop Styles */
 @media only screen and (min-width: 961px) {
