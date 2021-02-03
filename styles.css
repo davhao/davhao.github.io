@@ -75,6 +75,15 @@ body {
 	margin-bottom: 5rem;
 }
 
+/* Econ */
+.econ-content {
+	margin: 5rem auto;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
 /* Mobile Styles */
 @media only screen and (max-width: 450px) {
 	.navbar {
