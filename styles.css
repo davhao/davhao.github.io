@@ -11,17 +11,49 @@ body {
 
 /* home */
 .home-content {
-	/* position: absolute; */
-	margin: auto;
-	/* top: 42%;
-	right: 0;
-	bottom: 0;
-	left: 0; */
+	position: relative;
+	margin: 10rem auto 5rem auto;
 	display: flex;
-	flex-direction: column;
 	align-items: center;
-	justify-content: center;
-	height: 90vh;
+	justify-content: space-evenly;
+	width: 75%;
+	height: 400px;
+	padding: 2rem;
+	z-index: 5;
+}
+
+.home-blue-div {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background-color: #1d4e72;
+	left: -1rem;
+	bottom: -1rem;
+	z-index: -1;
+}
+
+.home-green-div {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background-color: #3abb83;
+	left: 0;
+	z-index: -1;
+}
+
+.home-baby-blue-div {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background-color: #7fc9f0;
+	left: 1rem;
+	bottom: 1rem;
+	z-index: -1;
+}
+
+.home-content > img {
+	width: 30%;
+	border-radius: 50%;
 }
 
 .project-btn {
@@ -33,6 +65,62 @@ body {
 .fa-envelope {
 	color: white;
 	font-size: 2rem;
+}
+
+.home-links {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-bottom: 5rem;
+}
+
+.home-media {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin: 5rem;
+}
+
+.personal-intro {
+	padding: 6rem 2rem;
+	background-color: black;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	height: 500px;
+}
+
+.personal-intro > h1 {
+	color: white;
+}
+
+.home-written-statement {
+	display: flex;
+	flex-direction: column;
+	width: 70%;
+	margin: 0 auto 10rem auto;
+	padding: 2rem;
+	position: relative;
+	z-index: 0;
+}
+
+.home-written-statement > h1 {
+	color: white;
+}
+
+.home-written-statement-text {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background-color: black;
+	padding: 3rem;
+}
+
+.written-statement-blue-div {
+	width: 30.5rem;
+	height: 105%;
 }
 
 /* projects */
@@ -81,7 +169,18 @@ body {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	justify-content: center;
+	justify-content: start;
+	min-height: 90vh;
+}
+
+.econ-content > iframe {
+	width: 850px;
+	max-width: 90vw;
+	height: 1000px;
+}
+
+.econ-linkedin {
+	margin-bottom: 5rem;
 }
 
 /* Mobile Styles */
