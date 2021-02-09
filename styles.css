@@ -123,6 +123,60 @@ body {
 	height: 105%;
 }
 
+.work-and-edu {
+	width: 80%;
+	margin: 5rem auto;
+	color: white !important;
+	position: relative;
+	z-index: 0;
+}
+
+.edu-green-div {
+	position: absolute;
+	width: 30%;
+	height: 116%;
+	background-color: #3abb83;
+	right: -5%;
+	top: -8%;
+	z-index: 0;
+}
+
+.work-and-edu-content {
+	background-color: black;
+	position: relative;
+	padding: 3rem;
+}
+
+.education {
+	position: relative;
+}
+
+.education > div {
+	display: flex;
+	align-items: center;
+}
+
+.education > div > img {
+	margin: 0 3rem 0 2rem;
+}
+
+.gallery {
+	width: 80%;
+	margin: 10rem auto;
+}
+
+.gallery-images {
+	margin: 3rem;
+	display: flex;
+	justify-content: center;
+	background-color: #ebebeb;
+	padding: 3rem;
+}
+
+.gallery-images > img {
+	max-height: 600px;
+}
+
 /* projects */
 .project-h1 {
 	margin-bottom: 5rem;
@@ -181,6 +235,28 @@ body {
 
 .econ-linkedin {
 	margin-bottom: 5rem;
+}
+
+.econ-mockups {
+	width: 80%;
+	margin: 5rem;
+}
+
+.econ-mockups-pictures {
+	margin-top: 3rem;
+	width: 100%;
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.econ-mockups-pictures > div {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.econ-tinkercad {
+	width: 80%;
 }
 
 /* Mobile Styles */
