@@ -263,6 +263,16 @@ body {
 	margin-bottom: 5rem;
 }
 
+.cash {
+	margin: 2rem 0 2rem 0;
+}
+
+.with-vid {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
 /* Mobile Styles */
 @media only screen and (max-width: 450px) {
 	.navbar {
